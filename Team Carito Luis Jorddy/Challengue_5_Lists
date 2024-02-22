@@ -1,0 +1,12 @@
+#initializes a list with the numbers 1 to 10
+#Removes all even numbers from the list
+#Prints the modified list.
+
+#solution
+list = [1,2,3,4,5,6,7,8,9,10]
+print("Inicial list:",list)
+for i in list: 
+    if i%2 == 0:
+        print("Remove even number:",i)
+        list.remove(int(i))
+print("Modified list:",list)
