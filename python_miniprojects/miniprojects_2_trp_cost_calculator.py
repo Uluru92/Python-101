@@ -18,4 +18,14 @@ Calculate the cost of the trip and display it to the
  that you learned about in this course section.
 """
 
-#prueba 
+cost_trip = None
+
+km_drive = float(input("Please enter the kilometers to drive(km): ")) #km
+
+liter_per_km = float(input("Please enter thel liters per kilometer usage of the car(l/km): "))  #l/km
+
+price_per_liter = float(input("Please enter the price_per_liter($/l): ")) #$/l
+
+cost_trip = float(km_drive*liter_per_km*price_per_liter)
+
+print(f"The total cost of the trip is: ${cost_trip}")
