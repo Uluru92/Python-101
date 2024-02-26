@@ -101,4 +101,7 @@ while door_selection != "left" and door_selection != "right":
         continue_dragon_room = None #reset the option to continue to the dragon room in case the player comes back to this room later
 
     door_selection = None
+
+
+# New line for test commit push sync
     
