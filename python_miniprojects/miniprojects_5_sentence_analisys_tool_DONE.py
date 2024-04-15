@@ -44,4 +44,4 @@ for letter in sentence:
 total_chars_counter = upper_counter+lower_counter+digit_counter+puntuation_counter
 print(f"Upper case: {upper_counter}\nLower case: {lower_counter}\nPunctuation: {puntuation_counter}\nTotal chars: {total_chars_counter}")
 
-#just to check something!
+#just to check something... que hago perdi estos files de agluna manera!??!
