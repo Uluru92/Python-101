@@ -60,3 +60,5 @@ for png_file in list_subfolder_1:
 print("List of images in subfolder 2: ")
 for png_file in list_subfolder_2:
     print(list_subfolder_2)
+
+#Came back here to use file search tool, to improve my 3.5 exercise from python 201! 
