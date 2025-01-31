@@ -30,7 +30,7 @@ print("My actual path is:",main_path)
 
 for file in main_path.iterdir():
 
-    if file.suffix == ".jpg":
+    if file.suffix == ".JPG":
         list_main.extend([file])
 
     if file.is_dir():
@@ -38,7 +38,7 @@ for file in main_path.iterdir():
 
         for file_sub1 in subfolder_1_path.iterdir():
 
-            if file_sub1.suffix == ".jpg":
+            if file_sub1.suffix == ".JPG":
                 list_subfolder_1.extend([file_sub1])
 
             if file_sub1.is_dir():
@@ -46,7 +46,7 @@ for file in main_path.iterdir():
 
                 for file_sub2 in subfolder_2_path.iterdir():
 
-                    if file_sub2.suffix == ".jpg":
+                    if file_sub2.suffix == ".JPG":
                         list_subfolder_2.extend([file_sub2])
 
 print("List of images en main folder: ")
